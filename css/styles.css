@@ -623,5 +623,6 @@ padding-left: 38px ;
   left: 15px;
   margin-top: 8px;
   margin-bottom: 8px;
-  
+  top: 50%;
+  transform: translateY(-50%);
 }
