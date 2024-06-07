@@ -533,6 +533,7 @@ pointer-events: auto;
   background-color: #FCFCFC;
   transform: translate(-50%, -50%) scale(1);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+padding: 24px;
 }
 
 .modal-close-btn {
@@ -578,7 +579,8 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 text-align: center;
 color: #2E2F42;
-  margin: 72px 24px 16px;
+  margin-top: 72px;
+  margin-bottom: 16px;
 }
 
 
@@ -599,4 +601,27 @@ color: #ffffff;
 display: block;
 margin-bottom: 24px;
 margin: auto;
+}
+
+.modal-input{
+  width: 100%;
+  border: 1px solid #2E2F42 ;
+border-radius: 4px;
+width: 360px;
+height: 40px;
+background-color: transparent;
+margin-bottom: 18px;
+padding-left: 38px ;
+
+}
+.modal-field-wrap{
+  position: relative;
+}
+
+.modal-icon{
+  position: absolute;
+  left: 15px;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  
 }
