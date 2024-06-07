@@ -602,7 +602,7 @@ text-align: center;
 color: #ffffff;
 display: block;
 margin-bottom: 24px;
-margin: auto;
+margin: 0 auto;
 border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -674,4 +674,37 @@ margin-bottom: 4px;
 
 .textarea-comment:focus{
   border-color: #4D5AE5; 
+}
+
+.modal-text-policy{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16667;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+.check-span{
+  width: 16px;
+  height: 16px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  margin-right: 8px;
+}
+
+.modal-check:checked + .modal-text-policy span { 
+  background-color: #404BBF;
+fill: #ffffff;
+}
+
+.check-icon{
+
 }
