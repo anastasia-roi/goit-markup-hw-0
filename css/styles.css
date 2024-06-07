@@ -710,12 +710,11 @@ margin-bottom: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked, .modal-text-policy span { 
-  background-color: #404BBF;
-fill: #F4F4FD;
-display: inline-flex;
-border: none;
 
+.modal-check:checked+.modal-text-policy>.check-span {
+  background-color: #404BBF;
+  fill: #F4F4FD;
+  border: none;
 }
 
 .check-icon{
