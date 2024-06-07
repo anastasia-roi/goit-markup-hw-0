@@ -690,6 +690,9 @@ margin-bottom: 4px;
     align-items: center;
     
 }
+.checkbox{
+  margin-bottom: 24px;
+}
 
 .check-span{
   width: 16px;
@@ -713,6 +716,8 @@ border: none;
 
 .check-icon{
 
+display: inline-flex;
+border: 1px solid rgba(46, 47, 66, 0.4);
 }
 
 .link-policy{
