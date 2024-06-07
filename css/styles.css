@@ -739,7 +739,7 @@ margin-bottom: 4px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    display: inline-flex;
+    
     align-items: center;
     
 }
@@ -767,7 +767,7 @@ margin-bottom: 4px;
   background-color: #404BBF;
   fill: #F4F4FD;
   border: none;
-  display: inline-flex;
+  
 }
 
 .check-icon{
