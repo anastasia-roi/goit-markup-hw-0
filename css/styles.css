@@ -695,16 +695,7 @@ margin-bottom: 4px;
   margin-bottom: 24px;
 }
 
-.modal-text-policy>span{
-  fill: transparent;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  display: inline-flex;
-
-}
-.check-span{
-  width: 16px;
-  height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4) ;
+.check-span {
   border-radius: 2px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   display: inline-flex;
@@ -712,6 +703,9 @@ margin-bottom: 4px;
   justify-content: center;
   fill: transparent;
   margin-right: 8px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  width: 16px;
+    height: 16px;
 }
 
 .modal-check:checked, .modal-text-policy span { 
