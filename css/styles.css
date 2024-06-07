@@ -607,6 +607,10 @@ border: none;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-field{
+  margin-bottom: 8px;
+}
+
 .modal-input{
   width: 100%;
 border-radius: 4px;
@@ -679,7 +683,7 @@ margin-bottom: 4px;
 .modal-text-policy{
     font-weight: 400;
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
     display: inline-flex;
@@ -700,11 +704,17 @@ margin-bottom: 4px;
   margin-right: 8px;
 }
 
-.modal-check:checked + .modal-text-policy span { 
+.modal-check:checked, .modal-text-policy span { 
   background-color: #404BBF;
-fill: #ffffff;
+fill: #F4F4FD;
+display: inline-flex;
+border: none;
 }
 
 .check-icon{
 
+}
+
+.link-policy{
+  color: #4d5ae5;
 }
